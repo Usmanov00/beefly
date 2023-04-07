@@ -7,9 +7,9 @@ function App() {
       <div className="container">
         <img src={logo} alt="" className="img"/>
         <div className="header">
-          <h1> Горящие туры </h1>
-          <h1> Авиабилеты </h1>
-          <h1> Визы </h1>
+          <h3> Горящие туры </h3>
+          <h3> Авиабилеты </h3>
+          <h3> Визы </h3>
         </div>
       </div>
       <div className="container-text">
