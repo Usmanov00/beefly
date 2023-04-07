@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="background">
       <div className="container">
-
         <img src={logo} alt="" className="img"/>
         <div className="header">
           <h1> Горящие туры </h1>
