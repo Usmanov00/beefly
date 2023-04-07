@@ -31,7 +31,8 @@ code {
 }
 
 .background {
-    background: url(./assets/images/travel-icons-set-isolated-on-white-background-travel-icon-thin-line-outline-linear-travel-symbol-for-logo-web-app-ui-travel-icon-simple-sign-vector.webp);
+    background: #fff;
+    /*background: url(./assets/images/travel-icons-set-isolated-on-white-background-travel-icon-thin-line-outline-linear-travel-symbol-for-logo-web-app-ui-travel-icon-simple-sign-vector.webp);*/
     object-fit: contain;
     background-size:40% 40%;
 
