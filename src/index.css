@@ -62,7 +62,10 @@ h5 {
 
 
 .header {
-    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .img {
@@ -80,11 +83,17 @@ h5 {
 
 . title img {
     width: 40px;
+    height: 40px;
 }
 
-.title img {
+.title-img {
+    max-width: 40px;
+}
+img {
     width: 40px;
 }
+
+
 .bx-timer:before {
     color: #ff9103;
     font-size: 36px;
@@ -141,6 +150,7 @@ h5 {
 
 .instagram {
     background-color:#a627a6;
+    padding: 5px 0ç;
 }
 
 .enlaces p {
@@ -351,7 +361,7 @@ h1 {
     background-color: #0c0a0a;
     padding: 10px;
     opacity: 0.9;
-    margin-top: 120px;
+    margin-top: 130px;
 }
 
 .footer p{

@@ -12,8 +12,8 @@ function App() {
         <img src={logo} alt="" className="img"/>
         <div className="header">
           <div className="title"><i className='bx bx-timer'></i><h5> Горящие туры </h5></div>
-          <div className="title"><img src={airplane} alt="airplane"/><h5> Авиабилеты </h5></div>
-          <div className="title"><img src={visa} alt="airplane"/><h5> Визы </h5></div>
+          <div className="title title-img"><img src={airplane} alt="airplane"/><h5> Авиабилеты </h5></div>
+          <div className="title title-img"><img src={visa} alt="airplane"/><h5> Визы </h5></div>
           <div>🏠Адреса и 📲контакты г.Бишкек</div>
         </div>
         <div className="container-text">
@@ -35,7 +35,7 @@ function App() {
                 <p>Сауле</p>
               </a>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full">
+            <li className="itemsCenter itemsInBox itemColor w-full instagram">
               <img src={instagram} alt="" width={30}/>
               <a href="https://instagram.com/beeflykg?igshid=YmMyMTA2M2Y=" className="link">
                 <p>Instagram</p>
