@@ -66,6 +66,9 @@ function App() {
               </a>
             </li>
           </ul>
+          <footer>
+            <p>Работаем круглосуточно 24/7</p>
+          </footer>
         </div>
       </div>
     </div>

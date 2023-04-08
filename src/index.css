@@ -352,15 +352,9 @@ h1 {
 
 }
 
-.footer {
-    background-color: #0c0a0a;
+footer{
     padding: 10px;
-    opacity: 0.9;
-    margin-top: 130px;
+    font-size: 28px;
 }
 
-.footer p{
-    color: #fff;
-    font-weight: 600;
-}
 
