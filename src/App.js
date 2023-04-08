@@ -20,48 +20,53 @@ function App() {
         </div>
         <div className="links">
           <ul>
-            <li className="itemsCenter itemsInBox itemColor w-full">
-              <img src={whatsapp} alt="" width={30}/>
-              <a href="https://wa.me/+996709750585" className="link"> WhatsApp менеджеру по авиабилетам
-                <p><b>Сауле</b></p>
-              </a>
+            <li className="itemsCenter itemsInBox itemColor w-full gis">
+              <div className="box-item">
+                <img src={whatsapp} alt="" width={30}/>
+                <a href="https://wa.me/+996709750585" className="link"> WhatsApp менеджеру по авиабилетам
+                  <p><b>Сауле</b></p>
+                </a>
+              </div>
+              <div className="box-number">num: +996709750585</div>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full">
-              <img src={whatsapp} alt="" width={30}/>
-              <a href="https://wa.me/+996502750585" className="link"> WhatsApp менеджера по турам
-                <p><b>Бексултан</b></p>
-              </a>
+            <li className="itemsCenter itemsInBox itemColor w-full gis">
+              <div className="box-item">
+                <img src={whatsapp} alt="" width={30}/>
+                <a href="https://wa.me/+996502750585" className="link">WhatsApp менеджера по турам
+                  <p><b>Бексултан</b></p>
+                </a>
+              </div>
+              <div className="box-number">num: +996709750585</div>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full">
-              <img src={whatsapp} alt="" width={30}/>
-              <a href="https://chat.whatsapp.com/CNZrHJbUX5O1TOuPYcrucu" className="link">Вступить в WhatsApp группу
-                горящих <u>туров</u>
-              </a>
+            <li className="itemsCenter itemsInBox itemColor w-full gis  ">
+              <div className="box-item">
+                <img src={whatsapp} alt="" width={30}/>
+                <a href="https://chat.whatsapp.com/CNZrHJbUX5O1TOuPYcrucu" className="link">Вступить в WhatsApp группу
+                  горящих <u>туров</u>
+                </a>
+              </div>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full instagram">
-              <img src={instagram} alt="" width={30}/>
-              <a href="https://instagram.com/beeflykg?igshid=YmMyMTA2M2Y=" className="link">
-                <p>Instagram</p>
-              </a>
+            <li className="itemsCenter itemsInBox itemColor w-full gis">
+              <div className="box-item">
+                <img src={instagram} alt="" width={30}/>
+                <a href="https://instagram.com/beeflykg?igshid=YmMyMTA2M2Y" className="link"><u><p>Instagram</p></u>
+                </a>
+              </div>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full instagram">
+            <li className="itemsCenter itemsInBox itemColor w-full gis">
               <img src={location} alt="" width={30}/>
               <a href="https://2gis.kg/bishkek/geo/70000001067955342" className="link">
                 <p>Чуй/Советская (Адресс на карте)</p>
               </a>
             </li>
-            <li className="itemsCenter itemsInBox itemColor w-full instagram">
+            <li className="itemsCenter itemsInBox itemColor w-full gis">
               <img src={location} alt="" width={30}/>
-              <a href="https://2gis.kg/bishkek/geo/70000001067955342" className="link">
+              <a href="https://2gis.kg/bishkek/geo/70000001039684387" className="link">
                 <p> Ахунбаева/Алматинская (Адресс на карте)</p>
               </a>
             </li>
           </ul>
         </div>
-      </div>
-      <div className="footer">
-        <h1>Работаем круглосуточно 24/7</h1>
-        {/*<div>🏠Адреса и 📲контакты г.Бишкек</div>*/}
       </div>
     </div>
 

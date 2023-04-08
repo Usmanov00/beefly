@@ -99,6 +99,20 @@ img {
     font-size: 36px;
 }
 
+.box-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gis {
+    padding: 20px;
+}
+
+.box-number {
+    color: #007ae5d9;
+}
+
 .container-text {
     padding: 0 20px;
 }
@@ -148,10 +162,7 @@ img {
     background-color: #269d27;
 }
 
-.instagram {
-    background-color:#a627a6;
-    padding: 5px 0;
-}
+
 
 .enlaces p {
     margin-right: 10px;
@@ -161,14 +172,6 @@ img {
     font-size: 30px;
 }
 
-.instagram:hover{
-    background-color: #e335e3;
-    color:#222831;
-    transition-duration: 0.7s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .whatsapp:hover{
     background-color: #30e031;
@@ -178,8 +181,6 @@ img {
     justify-content: center;
     align-items: center;
 }
-
-
 
 
 
@@ -211,13 +212,9 @@ img {
     transition: ease all 0.3s;
     color: #FFF;
     height: 100%;
-    margin: 10px 20px;
-    padding: 10px;
+    margin: 0 10px 0 10px;
+    padding:  0 10px 0 10px;
 }
-
-
-
-
 
 
 span {
@@ -228,6 +225,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .itemsInBox {
     display: flex;
