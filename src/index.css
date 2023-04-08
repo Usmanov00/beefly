@@ -179,10 +179,7 @@ img {
     align-items: center;
 }
 
-.footer{
-    visibility: hidden;
 
-}
 
 
 
@@ -215,7 +212,7 @@ img {
     color: #FFF;
     height: 100%;
     margin: 10px 20px;
-
+    padding: 10px;
 }
 
 
