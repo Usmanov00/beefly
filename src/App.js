@@ -36,7 +36,7 @@ function App() {
                   <p><b>Бексултан</b></p>
                 </a>
               </div>
-              <div className="box-number">num: +996709750585</div>
+              <div className="box-number">num: +996502750585</div>
             </li>
             <li className="itemsCenter itemsInBox itemColor w-full gis  ">
               <div className="box-item">
